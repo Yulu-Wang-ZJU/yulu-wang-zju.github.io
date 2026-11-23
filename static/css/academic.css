@@ -65,11 +65,12 @@ h3 { margin: 0 0 8px; color: var(--ink); font-size: 17px; font-weight: 600; line
 .project-status { flex-shrink: 0; color: var(--accent); font-size: 11px; }
 .project-meta { margin: 7px 0 9px; color: var(--muted); font-size: 12px; }
 .project p:last-child { margin-bottom: 0; }
-.awards-section { padding-bottom: 56px; }
-.award { display: grid; grid-template-columns: 1fr 195px; gap: 20px; align-items: baseline; border-top: 1px solid var(--line); padding: 16px 0; }
-.award h3 { font-size: 14px; margin: 0; }
-.award .award-name-zh { margin: 3px 0 0; color: var(--muted); font-size: 11px; }
-.award .prize { margin: 0; text-align: right; color: var(--accent); font-size: 12px; }
+.awards-section { padding-bottom: 40px; }
+.awards-section .section-heading { margin-bottom: 16px; }
+.awards-section h2 { font-size: 24px; }
+.award { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 20px; align-items: baseline; border-top: 1px solid var(--line); padding: 10px 0; }
+.award h3 { font-size: 14px; font-weight: 400; margin: 0; }
+.award .prize { margin: 0; text-align: right; color: var(--muted); font-size: 14px; }
 .site-footer { display: flex; justify-content: space-between; gap: 20px; padding-block: 22px 38px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
 .site-footer p { margin: 0; }
 .site-footer p span { margin: 0 9px; }
@@ -90,7 +91,7 @@ h3 { margin: 0 0 8px; color: var(--ink); font-size: 17px; font-weight: 600; line
   .paper { grid-template-columns: 89px minmax(0, 1fr); gap: 15px; }
   .project-heading { display: block; }
   .project-status { display: inline-block; margin-top: 6px; }
-  .award { grid-template-columns: 1fr 147px; gap: 12px; }
+  .award { grid-template-columns: minmax(0, 1fr) auto; gap: 12px; }
 }
 @media (max-width: 500px) {
   .intro { display: block; position: relative; padding-top: 36px; }
