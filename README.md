@@ -15,7 +15,7 @@ Layout lives in `index.template.html`; visual styling lives in `static/css/acade
 
 ## Editorial rules
 
-- Accepted and published papers go in `publications.md`; submitted and developing work go in `ongoing.md`.
+- Accepted and published papers, plus public arXiv preprints clearly labeled as preprints, go in `publications.md`; other submitted and developing work go in `ongoing.md`.
 - Review-sensitive ongoing work is described only through broad research directions. Do not add project acronyms, manuscript titles, venue or submission status, or identifying method and dataset details without the author's explicit request.
 - Do not describe a target venue as an acceptance or an incoming visit as a completed appointment.
 - BioAlign is second-author work; the other current main research projects are first-author work.
